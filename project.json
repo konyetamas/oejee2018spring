@@ -44,6 +44,32 @@
 					"goal": "bulk upload data"
 				}
 			]
+		},
+		{
+			"name": "caop",
+			"description": "Cargo Operator",
+			"platform": "jboss",
+			"members": [
+				{
+					"name": "Marton Attila István",
+					"neptun": "T2WC1Q",
+					"github": "StevenAMarton"
+				}
+			],
+			"interfaces": [
+				{
+					"tpye": "Web interface",
+					"goal": "visual overview"
+				},
+				{
+					"tpye": "REST API",
+					"goal": "handle CRUD operations"
+				},
+				{
+					"type": "SOAP WebService",
+					"goal": ""
+				}
+			]
 		}
 	]
 }
