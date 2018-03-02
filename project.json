@@ -70,6 +70,28 @@
 					"goal": ""
 				}
 			]
+		},
+		{
+			"name": "musiccatalog",
+			"description": "A system to manage a large catalog of music releases.",
+			"platform": "weblogic",
+			"members": [
+				{
+					"name": "Zoltan Bencs",
+					"neptun": "FMT5JM",
+					"github": "bench1947"
+				}
+			],
+			"interfaces": [
+				{
+					"type": "restful",
+					"goal": "handle crud operations"
+				},
+				{
+					"type": "jms",
+					"goal": "bulk upload data"
+				}
+			]
 		}
 	]
 }
