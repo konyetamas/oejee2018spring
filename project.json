@@ -93,5 +93,31 @@
 				}
 			]
 		}
+		{
+			"name": "online_pizzeria",
+			"description": "Online pizza ordering platform",
+			"platform": "jboss",
+			"members": [
+				{
+					"name": "Sallér Bence Gergely",
+					"neptun": "TUN12C",
+					"github": "saben23"
+				}
+			],
+			"interfaces": [
+				{
+					"type": "Web interface",
+					"goal": "Visual representation"
+				},
+				{
+					"type": "REST API",
+					"goal": "Handle CRUD operations"
+				},
+				{
+					"type": "SOAP WebService",
+					"goal": "To communicate with a client desktop app written in C#"
+				}
+			]
+		},
 	]
 }
