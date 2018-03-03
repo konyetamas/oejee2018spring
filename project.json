@@ -119,5 +119,31 @@
 				}
 			]
 		},
+		{
+			"name": "messenger",
+			"description": "Basically a chat program with some extensions",
+			"platform": "weblogic",
+			"members": [
+				{
+					"name": "Lázár Gergely",
+					"neptun": "X5HKN2",
+					"github": "LazzeroGery"
+				}
+			],
+			"interfaces": [
+				{
+					"type": "web interface",
+					"goal": "visual representation"
+				},
+				{
+					"type": "rest api",
+					"goal": "handle crud operations"
+				},
+				{
+					"type": "jms",
+					"goal": "bulk upload data"
+				}
+			]
+		}
 	]
 }
