@@ -144,6 +144,36 @@
 					"goal": "bulk upload data"
 				}
 			]
+		},
+		{
+			"name": "books",
+			"description": "Bookstore application which handle stock holdings, customers, suppliers and orders.",
+			"platform": "jboss",
+			"members": [
+				{
+					"name": "Makra Attila",
+					"neptun": "E7X9T3",
+					"github": "makraat"
+				}
+			],
+			"interfaces": [
+				{
+					"type": "web interface",
+					"goal": "visual representation"
+				},
+				{
+					"type": "rest api",
+					"goal": "handle crud operations"
+				},
+				{
+					"type": "jms",
+					"goal": "receiving orders"
+				},
+				{
+					"type": "SOAP WebService",
+					"goal": "providing services"
+				}
+			]
 		}
 	]
 }
