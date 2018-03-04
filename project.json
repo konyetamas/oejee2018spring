@@ -1,4 +1,4 @@
-{
+﻿{
 	"period": "2017-2018/2",
 	"projects": [
 		{
@@ -92,7 +92,7 @@
 					"goal": "bulk upload data"
 				}
 			]
-		}
+		},
 		{
 			"name": "online_pizzeria",
 			"description": "Online pizza ordering platform",
@@ -172,6 +172,32 @@
 				{
 					"type": "SOAP WebService",
 					"goal": "providing services"
+				}
+			]
+		},
+		{
+			"name": "Discount watcher",
+			"description": "Stores products discounts",
+			"platform": "jboss",
+			"members": [
+				{
+					"name": "Dobos Imre",
+					"neptun": "FZUXYB",
+					"github": "imredobos"
+				}
+			],
+			"interfaces": [
+				{
+					"tpye": "web interface",
+					"goal": "visual representation"
+				},
+				{
+					"tpye": "restful",
+					"goal": "API for clients"
+				},
+				{
+					"type": "jms",
+					"goal": "receiving data"
 				}
 			]
 		}
