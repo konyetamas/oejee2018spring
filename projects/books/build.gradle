@@ -1,0 +1,7 @@
+apply plugin: 'eclipse'
+apply plugin: 'ear'
+
+dependencies {
+	deploy project('bk-ejbservice')
+	deploy project(path: 'bk-weblayer', configuration: 'archives')
+}
