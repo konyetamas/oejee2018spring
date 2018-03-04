@@ -200,6 +200,32 @@
 					"goal": "receiving data"
 				}
 			]
+		},
+		{
+			"name": "Task management",
+			"description": "Task management system, workers-managers communication",
+			"platform": "jboss",
+			"members": [
+				{
+					"name": "Könye Tamás",
+					"neptun": "IWSVPF",
+					"github": "konyetamas"
+				}
+			],
+			"interfaces": [
+				{
+					"tpye": "web interface",
+					"goal": "visual representation"
+				},
+				{
+					"type": "rest api",
+					"goal": "handle crud operations"
+				},
+				{
+					"type": "SOAP WebService",
+					"goal": ""
+				}
+			]
 		}
 	]
 }
